@@ -1,0 +1,120 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background-image: url(immaginette/background-pizza.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  background-color: rgba(40, 40, 40, 0.5);
+  border-radius: 100px;
+}
+
+header {
+  height: 200px;
+  background-image: url(immaginette/logo-pizzeria.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 40px;
+}
+
+nav {
+  background-color: rgba(150, 0, 0, 0.6);
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+main {
+  height: 500px;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-family: "Knewave", cursive;
+  font-size: 70px;
+  color: whitesmoke;
+}
+
+p {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 420px) {
+  .map {
+    margin-top: 320px;
+  }
+}
+
+#Prenota {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  color: black;
+  background-color: yellow;
+  padding: 10px;
+  border: 2px solid white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#Prenota:hover {
+  background-color: red;
+  color: yellow;
+  border: 2px solid black;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Cabin", sans-serif;
+  color: whitesmoke;
+}
+
+.menu {
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: "Montserrat" sans-serif;
+  padding: 0 10px;
+}
+
+.menu:hover {
+  color: black;
+  background-color: whitesmoke;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.contact {
+  padding-top: 40px;
+}
+
+#footer {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.linkf {
+  text-decoration: none;
+  color: yellow;
+}
+.linkf:hover {
+  color: red;
+}

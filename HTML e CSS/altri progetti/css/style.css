@@ -1,0 +1,96 @@
+body {
+  background-color: gray;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  width: 800px;
+  margin: auto;
+}
+td {
+  border: 1px solid;
+  border-color: black;
+  line-height: 50px;
+}
+
+h1 {
+  font-size: 4, 375rem;
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-size: 2rem;
+}
+.img-round {
+  border-radius: 100%;
+  width: 60px;
+  float: left;
+  margin-right: 350px;
+  margin-left: 30px;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+}
+
+a:hover {
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.font50 {
+  font-size: 50px;
+}
+
+.backOrange {
+  background-color: gainsboro;
+}
+
+#titolo {
+  font-size: 50px;
+  background-color: gainsboro;
+}
+
+#backOrange {
+  background-color: gainsboro;
+}
+
+div {
+  position: relative;
+  border: 1px solid;
+  font-family: "Verdana" sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  -webkit-box-shadow: -1px 1px 2px 3px rgba(0, 0, 0, 0.41);
+  box-shadow: -1px 1px 2px 3px rgba(0, 0, 0, 0.41);
+}
+
+.center {
+  text-align: center;
+}
+
+.info-per-img {
+  width: 10rem;
+  height: 8rem;
+  position: absolute;
+  left: 50px;
+  bottom: 12px;
+}
+
+.skills-img {
+  height: 15rem;
+  width: 17rem;
+  float: left;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.half-div {
+  width: 60%;
+  text-align: left;
+}
+
+p {
+  padding-right: 5px;
+}
